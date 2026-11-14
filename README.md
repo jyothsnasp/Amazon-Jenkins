@@ -1,1 +1,1 @@
-Testing jenkins automatic build using github webhook
+Testing multi branch pipeline
