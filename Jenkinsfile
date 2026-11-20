@@ -10,7 +10,7 @@ pipeline {
                 git branch:'main' , url: 'https://github.com/jyothsnasp/Amazon-Jenkins.git'
             }
             }
-        stage('build project') {
+        stage('build') {
             steps {
                 sh 'mvn clean install'
             }    
